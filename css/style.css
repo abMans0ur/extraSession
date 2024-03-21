@@ -1,40 +1,83 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.navbar{
-    display: flex;
-    background-color: black;
-    display: flex;
+.navbar {
+  display: flex;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  .logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    &:hover {
+      color: #f1c40f;
+    }
+  }
+  .links a {
+    /* display: flex; */
     justify-content: space-between;
+    margin-right: 12px;
+    width: 40%;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    &:hover {
+      color: #f1c40f;
+    }
+  }
+}
+/* end of nabbar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Baking {
+  margin-bottom: 2vh;
+
+  .title h2,
+  p {
+    display: flex;
     align-items: center;
-    padding: 1rem 2rem;
-    .logo{
-        color: white;
-        font-size: 1.5rem;
-        font-weight: 600;
-        text-decoration: none;
-        transition: all 0.3s ease;
-        &:hover{
-            color: #f1c40f;
-        }
+    justify-content: center;
+    margin-top: 1vh;
+  }
+  .title p {
+    margin-top: 1vh;
+    font-size: 14px;
+    color: #333;
+  }
+  img {
+    width: 100%;
+    width: 450px;
+    height: 450px;
+    margin-top: 3vh;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    &:hover {
+      transform: scale(1.1);
+      
     }
-    .links a{
-        /* display: flex; */
-        justify-content: space-between;
-        margin-right: 12px;
-        width: 40%;
-        color: white;
-        text-decoration: none;
-        font-size: 24px;
-        font-weight: 500;
-        transition: all 0.3s ease;
-        &:hover{
-            color: #f1c40f;
-        }
-
-    }
-
+  }
+  h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+  }
+  .Baking-center {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
 }
