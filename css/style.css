@@ -63,11 +63,11 @@
     width: 450px;
     height: 450px;
     margin-top: 3vh;
+    margin-bottom: 10px;
     border-radius: 5px;
     transition: all 0.3s ease;
     &:hover {
       transform: scale(1.1);
-      
     }
   }
   h3 {
@@ -80,4 +80,38 @@
     justify-content: center;
     gap: 30px;
   }
+}
+/* table section */
+.tablle {
+  margin: 0 auto;
+  width: 80%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: #000;
+  color: #fff;
+}
+.outpot {
+  text-align: center;
+}
+.outpot img {
+  width: 100px;
+  height: 100px;
+}
+.outpot p {
+  width: 100px;
+  height: 100px;
+}
+td img {
+  width: 100px;
+  height: 100px;
 }
