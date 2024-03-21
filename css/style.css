@@ -16,21 +16,25 @@
         font-size: 1.5rem;
         font-weight: 600;
         text-decoration: none;
-    }
-    .links{
-        display: flex;
-        justify-content: space-between;
-        width: 40%;
-        .links {
-            color: white;
-            text-decoration: none;
-            font-size: 30px;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            &:hover{
-                color: #f1c40f;
-            }
+        transition: all 0.3s ease;
+        &:hover{
+            color: #f1c40f;
         }
+    }
+    .links a{
+        /* display: flex; */
+        justify-content: space-between;
+        margin-right: 12px;
+        width: 40%;
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        &:hover{
+            color: #f1c40f;
+        }
+
     }
 
 }
