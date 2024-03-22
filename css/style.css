@@ -115,3 +115,56 @@ td img {
   width: 100px;
   height: 100px;
 }
+
+
+/* end of table section */
+/* footer */
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+.footer-center{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    &:hover{
+        color: #f1c40f;
+    }
+}
+.footer-icons a{
+    margin-right: 20px;
+}
+.footer-icons i{
+    width: 30px;
+    height: 30px;
+
+
+}
+#face{
+    &:hover{
+        color: #3b5998;
+    }
+}
+#insta{
+    &:hover{
+        color: #e4405f;
+    }
+}
+#twitter{
+    &:hover{
+        color: #00acee;
+    }
+}
+#linkedin{
+    &:hover{
+        color: #0e76a8;
+    }
+}
+/* end of footer */
+
+

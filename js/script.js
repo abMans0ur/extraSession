@@ -18,7 +18,7 @@ async function getProduct(){
         <td><img src="${el.thumbnail}"></td>
         <td>${el.images.map((ele)=>
             `<img src="${ele}">`
-        )}
+        ).join('')}
         </td>
         </tr> `
         document.getElementById('outpot').innerHTML=productsdata
